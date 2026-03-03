@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+      body {
+        background: #181b33;
+        color: #fcfdff;
+        /* padding: 20px; */
+        font-family: "Figtree", "Sans", "Poppins";
+      }
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+        /* max-width: 200%; */
+        /* margin: 0 auto; */
+        padding: 20px;
+        border-radius: 15px;
+        background: #282d49;
+        width: 100%;
+      }
+
+      .form-container .form-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .form-container .form-box input {
+        height: 30px;
+        border: 1px solid #181b33;
+        outline: none !important;
+        border-radius: 5px;
+        padding: 7px;
+        /* width: 250px; */
+      }
+
+      .form-container .form-box select {
+        outline: none !important;
+        height: 45px;
+      }
+
+      .form-container .form-box input:active,
+      .form-container .form-box input:focus {
+        border: 1px solid #181b33;
+      }
+
+      .form-container #form-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .form-container button {
+        height: 30px;
+        width: 100%;
+        max-width: 150px;
+      }
+
+      .user-input {
+        height: 100dvh;
+      }
+      .user-input form {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+      }
+
+      .user-input form p,
+      .user-input form a {
+        font-size: 14px;
+        /* text-decoration: none; */
+        text-underline-offset: 5px;
+        color: #fff;
+      }
+
+      table,
+      td,
+      th {
+        border: 2px solid;
+        border-collapse: collapse;
+        text-align: center;
+      }
