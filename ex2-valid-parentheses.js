@@ -33,13 +33,18 @@
        //    - if it's a closing bracket:
        else
       {
-        //        - pop last opening
-        last = opening.pop();
-        //        - if it doesn't match, return false 
-        if (brackets.find(open=> open[x]=== last)) 
-        last = ""
-        else
+        if (opening.length === 0)
           worked = true;
+        else
+        {
+          //        - pop last opening
+          last = opening.pop();
+          //        - if it doesn't match, return false 
+          if (brackets.find(open=> open[x]=== last)) 
+          last = ""
+          else
+            worked = true;
+        }
       }
     })
     if(worked)
@@ -57,7 +62,8 @@ const tests = [
   { input: "(]", expected: false },
   { input: "([)]", expected: false },
   { input: "{[]}", expected: true },
-  { input: "(((", expected: false }
+  { input: "(((", expected: false },
+  { input: ")()", expected: false}
 ];
 
 console.log("\n=== Valid Parentheses Tests ===");
