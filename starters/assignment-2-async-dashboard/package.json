@@ -1,0 +1,9 @@
+{
+  "name": "assignment-2-async-dashboard-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
+

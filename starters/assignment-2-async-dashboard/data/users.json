@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Amina", "track": "Full-Stack", "isActive": true },
+  { "id": 2, "name": "Bola", "track": "Full-Stack", "isActive": false },
+  { "id": 3, "name": "Chidi", "track": "Full-Stack", "isActive": true }
+]
+
