@@ -53,3 +53,28 @@ for (let student of students){
 console.log(average.toFixed(2));
 
 console.log(" ");
+
+//Class leader board 
+console.log("Class Leaderboard:")
+
+let stored;
+
+// Bubble sort
+for(let j = 0; j < students.length;){
+    for (let i = 4; i > j; i--){
+      if (students[i-1].score < students[i].score)
+      {
+        stored = students[i]
+        students[i] = students[i-1]
+        students[i-1] = stored
+      }
+      else 
+        continue;
+    }
+    j++;
+}
+
+for(let student of students)
+{
+    console.log("> " + student.name + " (" + student.score + ")");
+}
