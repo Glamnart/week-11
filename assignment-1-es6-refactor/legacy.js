@@ -7,5 +7,17 @@ const students = [
     {name: "Philip", score: 20}
 ]
 
+//Gives students who passed
+let passMark = 70;
+
+console.log("Passed:");
+
+for (let student of students){
+    if (student.score >= passMark)
+        console.log("> " + student.name);
+}
+
+console.log(" ");
+
 
 
