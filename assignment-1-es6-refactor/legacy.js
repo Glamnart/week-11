@@ -43,4 +43,13 @@ console.log("> " + bestStudent);
 
 console.log(" ");
 
+//Gives class average
+console.log("Class Average =");
 
+let average = 0;
+for (let student of students){
+    average += (student.score/students.length);
+}
+console.log(average.toFixed(2));
+
+console.log(" ");
