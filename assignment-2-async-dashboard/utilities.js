@@ -3,11 +3,7 @@ export function average(arr){ // Calculates the average
     return avg.toFixed(2);
 }
 
-export function active(arr){
-        const active = arr.reduce((active, {isActive})=>{
-            active[isActive] = (active[isActive] || 0) + 1;
-            return active;
-        },{})
-        
-        return active.true 
+export function active(arr){ // Counts the number of active members
+        const active = arr.filter(({isActive}) => isActive === true);
+        return active.length
 } 
