@@ -1,4 +1,5 @@
 import { readFile } from "node:fs/promises"; // Imports the readFile() function
+import { active, average, count, top3} from "./utilities.js";
 
 async function dashboard() {
     try{
@@ -12,11 +13,10 @@ async function dashboard() {
         const orders = JSON.parse(ordersRaw);
         const users = JSON.parse(usersRaw);
 
-    }
-    catch (error)
-    {
-        console.log(error)
-    }  
+        
+  } catch (err) {
+    console.error("Dashboard failed:", err.message);
+  }
 }
 
 dashboard();
