@@ -8,6 +8,7 @@ students.filter(({score}) => score >= passMark)
         .map(({name}) => console.log(`> ${name}`));
 
 
+
 import { bestStudent, average } from "./utilities.js";
 
 //Gives best student
@@ -19,3 +20,7 @@ console.log(`> ${bestStudent(students)}`)
 //Gives class average
 console.log("Class Average =");
 console.log(average(students).toFixed(2));
+
+
+
+import { leaderBoard } from "./leaderBoard.js";
