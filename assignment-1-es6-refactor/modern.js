@@ -1,5 +1,5 @@
 //  Import the array of objects holding student's information
-import { students } from "./students_store.js";
+import { students } from "./students.js";
 
 //Gives students who passed
 console.log("Passed:");
