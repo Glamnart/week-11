@@ -24,3 +24,9 @@ console.log(average(students).toFixed(2));
 
 
 import { leaderBoard } from "./leaderBoard.js";
+
+//Class leader board 
+
+
+console.log("Class Leaderboard:")
+leaderBoard(students);
