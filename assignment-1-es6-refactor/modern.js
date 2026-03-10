@@ -7,3 +7,6 @@ let passMark = 70;
 students.filter(({score}) => score >= passMark)
         .map(({name}) => console.log(`> ${name}`));
 
+
+
+import { bestStudent, average } from "./utilities.js";
