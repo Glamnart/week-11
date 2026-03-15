@@ -1,0 +1,79 @@
+.box
+{
+  height: 200px;
+  width: 200px;
+  font-weight: bold;
+  background-color: white;
+  font-size: 100px;
+  box-shadow: none;
+  border-width: 1px;
+}
+
+.boardRow
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.boardRow h2{
+  margin-right: 20px;
+}
+
+.game{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.board{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status{
+  font-size: 70px;
+  font-weight: bold;
+
+}
+
+.gameInfo{
+  margin: 200px 0px 0px 50px ;
+  font-size: 30px;
+}
+
+.gameInfo button{
+  height: 50px;
+  font-size: 30px !important;
+  font-weight: bold;
+  margin-right: 0px;
+}
+
+.gameInfo ul {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.gameInfo li
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.won{
+  background-color: lawngreen !important;
+}
+
+.columnNo
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 20px;
+}
