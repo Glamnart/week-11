@@ -1,0 +1,16 @@
+th
+{
+    border-width: 1px;
+    border-color: #99a1af;
+    padding-inline-start: 5px;
+    padding-inline-end: 40px;
+    padding-block: 5px;
+    font-size: larger;
+}
+
+td{
+    padding: 5px;
+    border-width: 1px;
+    border-color: #99a1af;
+    font-size: larger;
+}
